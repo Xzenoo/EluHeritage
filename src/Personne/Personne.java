@@ -2,8 +2,8 @@ package Personne;
 
 public class Personne {
 
-    private String nom;
-    private String prenom;
+    protected String nom;
+    protected String prenom;
     protected int compteBancaire;
 
     public Personne(String nom, String prenom){

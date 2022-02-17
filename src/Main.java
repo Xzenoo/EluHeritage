@@ -1,5 +1,6 @@
 import Personne.Personne;
 import Personne.Elu;
+import Personne.Mafieu;
 
 public class Main {
 
@@ -11,6 +12,13 @@ public class Main {
         EluUn.embaucherAssistant(personneUn);
         EluUn.verserDotation(personneUn,1000);
         EluUn.licencierAssistant(personneUn);
+
+        Mafieu mafieuUn = new Mafieu("escobar","Pablo");
+        Personne personneMafieu = new Personne("escobar", "pierre");
+
+        mafieuUn.embaucherAssistantMafieux(personneMafieu);
+        mafieuUn.verserDotation(personneMafieu,100);
+        mafieuUn.licencierAssistant(personneMafieu);
 
     }
 }

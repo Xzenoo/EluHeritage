@@ -2,7 +2,7 @@ package Personne;
 
 public class Elu extends Personne {
 
-    private Personne assistant;
+    protected Personne assistant;
 
     public Elu(String nom, String prenom) {
         super(nom, prenom);
