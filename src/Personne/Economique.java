@@ -6,7 +6,7 @@ public class Economique extends Elu {
         super(nom, prenom);
     }
 
-    public String verserDotation(Personne monAssistant, int montant){
+    public String verserDotationEconomique(Personne monAssistant, int montant){
         if (this.assistant == this) {
             int montantDistribuer = 0;
             if (montant > 1480){
